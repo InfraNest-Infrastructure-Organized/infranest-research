@@ -17,3 +17,10 @@ keywords:
   - email authentication
   - internet measurement
   - Chrome UX Report
+references:
+  - type: generic
+    title: "Email and DNS security of the most-visited websites, worldwide and in the Netherlands, Germany and France (InfraNest Research, edition 2026): pre-registration protocol"
+    authors:
+      - name: "InfraNest Research"
+    doi: "10.17605/OSF.IO/P6YTU"
+    year: 2026

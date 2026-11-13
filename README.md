@@ -34,7 +34,13 @@ sign their DNS, and serve HTTPS. Everything needed to repeat a scan is here; per
 | 2 | **Email and DNS security of the most-visited Dutch, German and French websites** | .nl / .de / .fr domains in each country's CrUX top 50,000 (20,314 / 19,400 / 12,595) | Final scan 30 Nov · publishing 8 Dec 2026 |
 | 3 | **Ready for 100-day certificates?** | to be registered | Publishing 16 Feb 2027 |
 
-Each study gets a page on [infranest.io](https://infranest.io), a pre-registration on OSF and a DOI on
+> [!IMPORTANT]
+> **Pre-registered:** the protocol for edition 2026 (studies 1 and 2) is registered on OSF Registries:
+> **[doi:10.17605/OSF.IO/P6YTU](https://doi.org/10.17605/OSF.IO/P6YTU)**. The registered text is in
+> [`docs/protocol-1.0.pdf`](docs/protocol-1.0.pdf) (SHA-256 `ddc3039f…4fd20`), with a Markdown copy in
+> [`docs/protocol-1.0.md`](docs/protocol-1.0.md).
+
+Each study gets a page on [infranest.io](https://infranest.io) and a DOI on
 [Zenodo](https://zenodo.org/communities/infranest-research). Links are added here as they go live.
 
 ## What we measure
@@ -52,7 +58,7 @@ The exact definitions, research questions and analysis plan are in the pre-regis
 
 > [!NOTE]
 > **Pre-registered.** Each study's questions, definitions and analysis are registered on OSF before any result
-> is computed. Every deviation is listed in the published method.
+> is computed ([edition 2026](https://doi.org/10.17605/OSF.IO/P6YTU)). Every deviation is listed in the published method.
 
 - **Defined populations.** The most-visited websites according to the [Chrome UX Report](https://developer.chrome.com/docs/crux)
   (CrUX), via [zakird/crux-top-lists](https://github.com/zakird/crux-top-lists). Each list is frozen with the
