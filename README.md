@@ -14,6 +14,7 @@
 
 <p align="center">
   <img alt="Edition: 2026" src="https://img.shields.io/badge/edition-2026-0f172a">
+  <a href="https://doi.org/10.17605/OSF.IO/P6YTU"><img alt="Pre-registered: OSF P6YTU" src="https://img.shields.io/badge/pre--registered-OSF%20P6YTU-14b8a6"></a>
   <img alt="Population: Chrome UX Report" src="https://img.shields.io/badge/population-CrUX%20Oct%202026-3b82f6">
   <img alt="Code licence: Apache-2.0" src="https://img.shields.io/badge/code-Apache--2.0-3b82f6">
   <img alt="Data licence: CC BY 4.0" src="https://img.shields.io/badge/data-CC%20BY%204.0-14b8a6">
