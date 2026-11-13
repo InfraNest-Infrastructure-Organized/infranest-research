@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Leave my domain out of future editions
+    url: mailto:research@infranest.io?subject=Opt-out%20request
+    about: Send opt-outs by email, not as an issue, so your domain is never named in public.
+  - name: A result for one specific domain looks wrong
+    url: mailto:research@infranest.io?subject=Result%20for%20one%20domain
+    about: Questions about a single domain go by email, because we never publish per-domain results.
+  - name: How the scanner works
+    url: https://infranest.io/research/scanner/
+    about: What we measure, from where, and how politely.

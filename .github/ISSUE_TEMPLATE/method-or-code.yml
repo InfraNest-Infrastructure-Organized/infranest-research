@@ -1,0 +1,32 @@
+name: Method or code issue
+description: A bug in the scanner or analysers, an unclear definition, or a mistake in a published total.
+labels: ["method"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for checking our work. **Please do not name individual domains here**: issues are public, and we never publish per-domain results. Use research@infranest.io for anything about one domain.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What is it about?
+      options:
+        - Scanner or analyser code
+        - A definition in the method
+        - A published total or chart
+        - Reproducing a scan
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What did you find?
+      description: Which file, definition or number, what you expected, and what you saw instead.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Study, edition or commit
+      placeholder: e.g. Study 1, edition 2026, scanner-e0c9063
