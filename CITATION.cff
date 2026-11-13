@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software or its input lists, please cite it as below."
+title: "InfraNest Research scanner: email, DNS and HTTPS security of the most-visited websites"
+type: software
+authors:
+  - name: "InfraNest Research"
+    website: "https://infranest.io"
+    email: "research@infranest.io"
+repository-code: "https://github.com/InfraNest-Infrastructure-Organized/infranest-research"
+url: "https://infranest.io"
+license: Apache-2.0
+keywords:
+  - SPF
+  - DMARC
+  - DNSSEC
+  - HTTPS
+  - email authentication
+  - internet measurement
+  - Chrome UX Report

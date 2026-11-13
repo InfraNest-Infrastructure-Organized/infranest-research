@@ -1,0 +1,19 @@
+{
+  "list": "crux-global100k-202610.csv",
+  "source": "https://github.com/zakird/crux-top-lists/raw/main/data/global/202610.csv.gz",
+  "crux_month": "202610",
+  "crux_file_sha256": "410165bb4a6bdb735adbb0d317280dff21ad7555ea35016d0ae8d72c5ad14911",
+  "public_suffix_list_sha256": "55d282c86a00f85cd5c686c91e8ba26a3b156154640d93853d3d389a5e949b07",
+  "cctld": null,
+  "max_bucket": 100000,
+  "origins_read": 1000000,
+  "domains": 80312,
+  "domains_per_bucket": {
+    "1000": 816,
+    "5000": 3370,
+    "10000": 4183,
+    "50000": 32310,
+    "100000": 39633
+  },
+  "generated": "2026-11-13T19:18:57.798Z"
+}
