@@ -41,7 +41,7 @@ sign their DNS, and serve HTTPS. Everything needed to repeat a scan is here; per
 > [`docs/protocol-1.0.pdf`](docs/protocol-1.0.pdf) (SHA-256 `ddc3039f…4fd20`), with a Markdown copy in
 > [`docs/protocol-1.0.md`](docs/protocol-1.0.md).
 
-Each study gets a page on [infranest.io](https://infranest.io) and a DOI on
+Each study gets a page on [infranest.io](https://infranest.io/?utm_source=github&utm_medium=readme&utm_campaign=infranest-research) and a DOI on
 [Zenodo](https://zenodo.org/communities/infranest-research). Links are added here as they go live.
 
 ## What we measure
@@ -67,7 +67,7 @@ The exact definitions, research questions and analysis plan are in the pre-regis
 - **Checked.** A hand check of 100 domains against independent tools (checkdmarc, delv, openssl), an
   independent recount of every published number, and a test-retest sample.
 - **Same analysers as the free tools.** SPF and DMARC are judged by the code behind InfraNest's
-  [SPF checker](https://infranest.io/tools/spf-check/) and [DMARC checker](https://infranest.io/tools/dmarc-check/),
+  [SPF checker](https://infranest.io/tools/spf-check/?utm_source=github&utm_medium=readme&utm_campaign=infranest-research) and [DMARC checker](https://infranest.io/tools/dmarc-check/?utm_source=github&utm_medium=readme&utm_campaign=infranest-research),
   so anyone can check one domain by hand and get the same verdict.
 - **Polite.** DNS only through public validating resolvers; one TLS handshake per site, like a single visitor;
   at most two connections at once per /24 network; a shuffled order.
@@ -119,7 +119,7 @@ domains can identify their owners.
 ## Site owners
 
 Want to know what was measured, or be left out of future editions? See
-**[how our scanner works](https://infranest.io/research/scanner/)** or write to
+**[how our scanner works](https://infranest.io/research/scanner/?utm_source=github&utm_medium=readme&utm_campaign=infranest-research)** or write to
 **[research@infranest.io](mailto:research@infranest.io)**. Opted-out domains are skipped and only counted, never named.
 
 ## Cite
@@ -136,4 +136,4 @@ The study's Zenodo DOI is added here on publication.
 - **Input lists and documentation** (`lists/`, `docs/`): [CC BY 4.0](LICENSE-DATA.md). The lists are derived from
   the Chrome UX Report (Google, CC BY 4.0).
 
-<p align="center"><sub>InfraNest Research is part of <a href="https://infranest.io">InfraNest</a> — one place for your servers, monitoring, DNS, domains and certificates.</sub></p>
+<p align="center"><sub>InfraNest Research is part of <a href="https://infranest.io/?utm_source=github&utm_medium=readme&utm_campaign=infranest-research">InfraNest</a> — one place for your servers, monitoring, DNS, domains and certificates.</sub></p>
