@@ -3,9 +3,13 @@ message: "If you use this software or its input lists, please cite it as below."
 title: "InfraNest Research scanner: email, DNS and HTTPS security of the most-visited websites"
 type: software
 authors:
-  - name: "InfraNest Research"
-    website: "https://infranest.io"
+  - family-names: "Steenman"
+    given-names: "Jaspar"
+    orcid: "https://orcid.org/0009-0000-7767-4036"
+    affiliation: "InfraNest Research"
     email: "research@infranest.io"
+version: "email-security-2026-v1.0"
+date-released: "2026-11-24"
 repository-code: "https://github.com/InfraNest-Infrastructure-Organized/infranest-research"
 url: "https://infranest.io"
 license: Apache-2.0
@@ -18,6 +22,18 @@ keywords:
   - internet measurement
   - Chrome UX Report
 references:
+  - type: report
+    title: "Email security of the world's 100,000 most-visited websites"
+    authors:
+      - family-names: "Steenman"
+        given-names: "Jaspar"
+        orcid: "https://orcid.org/0009-0000-7767-4036"
+    institution:
+      name: "InfraNest Research"
+    version: "1.0"
+    doi: "10.5281/zenodo.24417472"
+    url: "https://infranest.io/research/email-security-2026/"
+    year: 2026
   - type: generic
     title: "Email and DNS security of the most-visited websites, worldwide and in the Netherlands, Germany and France (InfraNest Research, edition 2026): pre-registration protocol"
     authors:

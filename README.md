@@ -31,7 +31,7 @@ sign their DNS, and serve HTTPS. Everything needed to repeat a scan is here; per
 
 | | Study | Population | Status |
 |---|---|---|---|
-| 1 | **Email security of the world's 100,000 most-visited websites** | 80,312 domains behind CrUX's global top 100,000 websites | Scanned 13 Nov 2026 · publishing 24 Nov 2026 |
+| 1 | **Email security of the world's 100,000 most-visited websites** | 80,312 domains behind CrUX's global top 100,000 websites | **Published 24 Nov 2026** · [report and data](https://infranest.io/research/email-security-2026/?utm_source=github&utm_medium=readme&utm_campaign=infranest-research) · [doi:10.5281/zenodo.24417472](https://doi.org/10.5281/zenodo.24417472) |
 | 2 | **Email and DNS security of the most-visited Dutch, German and French websites** | .nl / .de / .fr domains in each country's CrUX top 50,000 (20,314 / 19,400 / 12,595) | Final scan 30 Nov · publishing 8 Dec 2026 |
 | 3 | **Ready for 100-day certificates?** | to be registered | Publishing 16 Feb 2027 |
 
@@ -85,6 +85,9 @@ scripts/research/
   providers.mjs              provider recognition and headquarters regions
 functions/api/
   _spf.js, _dmarc.js         SPF and DMARC analysers (shared with the free tools)
+docs/
+  protocol-1.0.md / .pdf     the registered protocol (edition 2026)
+  research/                  per study: implementation notes (deviations, fixes, decisions) and review log
 lists/
   crux-*-202610.csv          the frozen input lists: "bucket,domain"
   crux-*-202610.csv.meta.json  provenance: source URL, SHA-256, counts per bucket
@@ -126,9 +129,8 @@ Want to know what was measured, or be left out of future editions? See
 
 Use **Cite this repository** on GitHub (from [`CITATION.cff`](CITATION.cff)), or cite the study itself:
 
-> InfraNest Research (infranest.io), 2026. *Email security of the world's 100,000 most-visited websites.*
-
-The study's Zenodo DOI is added here on publication.
+> Steenman, J. (2026). *Email security of the world's 100,000 most-visited websites* (Version 1.0) [Research report].
+> InfraNest Research. https://doi.org/10.5281/zenodo.24417472
 
 ## Licence
 
